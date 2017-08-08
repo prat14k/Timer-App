@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)startAction:(UIButton *)sender;
+
+- (IBAction)stopAction:(UIButton *)sender;
+- (IBAction)resetAction:(UIButton *)sender;
 
 @end
 
